@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* выберите ваш любимый шрифт */
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none; /* убираем подчеркивание у ссылок */
+    color: #007bff; /* цвет ссылок */
+}
+
+a:hover {
+    text-decoration: underline; /* добавляем подчеркивание при наведении */
+}
+
+.news-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.news-type {
+    margin: 0.5em;
+}
+
+.comment {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 5px 12px;
+}
+
+.comment .nested {
+    margin-left: 16px; /* Отступ для вложенных комментариев */
+}
+
